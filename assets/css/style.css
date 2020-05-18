@@ -23,6 +23,15 @@ body {
     z-index: 1000;
 }
 
+.logo {
+    height: 38px;
+    background:  #ffc100;
+    position: fixed;
+    top: 2px;
+    left: 65px
+}
+
+
 .top {
     position: fixed;
     top: 0;
@@ -45,16 +54,8 @@ body {
 
 .menuList {
     position: fixed;
-    left: 60px;
+    left: 50px;
 }
-
-
-.tab:hover {
-    background-color: #ffc100;
-    color: white;
-    border-bottom: 8px solid  #322e45
-}
-
 
 .nav-main ul {
     display: flex;
@@ -64,19 +65,31 @@ body {
 
 .nav-main ul li {
     list-style: none;
-    line-height: 42px;
+    line-height: 46px;
 }
+
+.active-sidebar  ul li a:hover {
+    background-color: #ffc100;
+    color: #1b1b1b;
+    padding-top: 10px;
+} 
 
 .nav-main ul li a {
     display: block;
     height: 100%;
     padding: 0 10px;
-    text-transform: uppercase;
     text-decoration: none;
     color: white;
     font-family: arial;
     font-size: 16px;
 }
+
+
+.tab:hover {
+    background-color: #ffc100;
+    color: white;
+}
+
 
 .nav-footer ul {
     display: flex;
@@ -147,18 +160,10 @@ body {
     padding-top: 10px;
 }
 
-.active-sidebar  ul li a:hover {
-    background-color: #ffc100;
-    color: #1b1b1b;
-    padding-top: 10px;
-} 
 
 
-.jumboImage {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
+
+
 
 /* .btnLeft {
     height: 300px;
@@ -194,16 +199,15 @@ body {
 } */
 
 .jumbotron {
-    padding-top: 80px;
     padding-bottom: 30px;
     background-color: 	#c3c3c3;
+
 }
 
 .jumboContainer {
     float: left;
     position: relative;
-    height: 100%;
-    width: 100%;
+
 }
 
 .jumboContainer .btnLeft {
@@ -233,6 +237,11 @@ body {
     color:#9ee4ba ;
 }
 
+.jumboImage {
+    height: 500px;
+    width: 750px;
+    object-fit: contain;
+}
 
 .padded{
     padding-top: 50px;
@@ -273,6 +282,18 @@ h3 {
     color:#ffc100;
     padding-bottom: 10px;
     padding-top:10px;
+}
+
+h4 {
+    color:white;
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+h5{
+    color:#4d4d4d;
+
 }
 
 h1:hover {
@@ -328,7 +349,7 @@ h3:hover {
 }
 
 .footertab:hover {
-    color: 	white;
+    color: 	#322e45;
     background-color: #ffc100;
 }
 
