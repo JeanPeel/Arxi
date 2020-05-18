@@ -29,7 +29,16 @@ body {
     position: fixed;
     top: 2px;
     left: 65px
+
 }
+
+.logo2 {
+    height: 50px;
+    background:  #ffc100;
+    margin-left: 20px;
+    margin-Right: 20px;
+}
+
 
 
 .top {
@@ -266,6 +275,7 @@ h1 {
 
     /* padding-bottom: 30px; */
     padding-top:30px;
+    font-family: 'Nothing You Could Do', cursive;
 }
 
 p {
