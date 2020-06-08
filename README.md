@@ -25,7 +25,7 @@ The Galleries only work if there is one of them on a page.  The page with severa
 
 ## Authors
 
-* **Jean Peel** - *Initial work on React Webpage* - [Jean Peel](https://github.com/JeanPeel)
+* **Jean Peel** - *Page Building* - [Jean Peel](https://github.com/JeanPeel)
 
 ## Acknowledgments
 
